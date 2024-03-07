@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/tenajuro12/newBackend/db"
-	"github.com/tenajuro12/newBackend/structures"
-	"github.com/tenajuro12/newBackend/tools"
+	"github.com/aizeresalim/final/db"
+	"github.com/aizeresalim/final/structures"
+	"github.com/aizeresalim/final/tools"
 	"gorm.io/gorm"
 )
 
