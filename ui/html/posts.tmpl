@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+</head>
+<body>
+    <h1> Posts</h1>
+
+    {{range .data}}
+        <div>
+            <h2>{{.Title}}</h2>
+            <p>{{.Content}}</p>
+            <p>Author: {{.User.Name}}</p>
+            <p>Created at: {{.CreatedAt}}</p>
+            <hr>
+        </div>
+    {{end}}
+
+    <div class="pagination">
+        <p>Page {{.meta.page}} of {{.meta.last_page}}</p>
+    </div>
+</body>
+</html>
