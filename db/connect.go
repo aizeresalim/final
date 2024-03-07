@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/tenajuro12/newBackend/structures"
+	"github.com/aizeresalim/final/structures"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
