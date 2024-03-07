@@ -6,8 +6,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
-	"github.com/tenajuro12/newBackend/db"
-	"github.com/tenajuro12/newBackend/routes"
+	"github.com/aizeresalim/final/db"
+	"github.com/aizeresalim/final/routes"
 )
 
 func main() {
