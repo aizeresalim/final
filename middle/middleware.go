@@ -2,7 +2,7 @@ package middle
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/tenajuro12/newBackend/tools"
+	"github.com/aizeresalim/final/tools"
 )
 
 func IsAuthenticate(c *fiber.Ctx) error {
